@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.titre{
+    text-align: center;
+}
+
+.titre h1{
+    color: white;
+}
+
+.barre{
+    background-color:  #6870E0;
+    color: white;
+}
+
+.colore{
+    height: 70vh;
+    width: 100%;
+    background-color: #262935;
+}
+
+.boton{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.etpe1{
+    height: 20px;
+    width: 150px;
+    border: 1px solid #6870E0;
+    border-radius: 20px;
+}
+
+.etpe1 p{
+    text-align: center;
+    color: #6870E0;
+}
+
+.flex{
+    display: flex;
+}
+
+.bull{
+    height: 50px;
+    width: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+}
+
+.tracer{
+    height: 10px;
+    width: 100px;
+    border: 1px dashed green;
+}
